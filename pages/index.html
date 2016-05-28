@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="chendind" content="hr@xiyoukeji.com">
+    <title>网银互联</title>
+    <link href="" rel="icon">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/source/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/source/flaticon/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/source/css/fullpage.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/source/css/public.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/source/css/pages.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/source/css/public_mobile.css">
+    <script src="__PUBLIC__/source/js/jquery-1.7.2.min.js"></script>
+    <script src="__PUBLIC__/source/js/fullPage.js"></script>
+    <script src="__PUBLIC__/source/js/fastclick.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="cenbox">
+        <a href="./index.html">
+            <div class="logo">
+            </div>
+        </a>
+        <div class="menuicon mobile">
+            <i class="flaticon-bars"></i>
+        </div>
+        <ul class="navBar navigator">
+            <li>首页</li>
+            <li>最新资讯</li>
+            <li>产品中心</li>
+            <li>解决方案</li>
+            <li>服务中心</li>
+            <!-- <li>客户案例</li> -->
+            <li>合作伙伴</li>
+            <li>联系我们</li>
+            <li>关于我们</li>
+        </ul>
+    </div>
+    <div class="switchbutton">
+        <a>中文</a>
+        <a>EN</a>
+    </div>
+</div>
+<!-- <div id="floatTools" class="rides-cs pc" style="height:246px;">
+  <div class="floatL">
+    <a style="" id="aFloatTools_Show" class="btnOpen" title="查看在线客服" href="javascript:void(0);"></a>
+    <a style="display: none;" id="aFloatTools_Hide" class="btnCtn" title="关闭在线客服" href="javascript:void(0);"></a>
+  </div>
+  <div id="divFloatToolsView" class="floatR" style="height: 237px; width: 140px;display:none;">
+    <div class="cn">
+        <ul>
+            <li>
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1448133348&amp;site=qq&amp;menu=yes"><span>上海售前</span><img border="0" src="__PUBLIC__/source/img/online.png"></a>
+            </li>
+            <li>
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1448133348&amp;site=qq&amp;menu=yes"><span>杭州售前</span><img border="0" src="__PUBLIC__/source/img/online.png">
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1448133348&amp;site=qq&amp;menu=yes"><span>北京售前</span><img border="0" src="__PUBLIC__/source/img/online.png"></a>
+            </li>
+            <li>
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1448133348&amp;site=qq&amp;menu=yes"><span>广州售前</span><img border="0" src="__PUBLIC__/source/img/online.png">
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1448133348&amp;site=qq&amp;menu=yes"><span>售后</span><img border="0" src="__PUBLIC__/source/img/online.png"></a>
+            </li>
+            <li>
+                <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1448133348&amp;site=qq&amp;menu=yes"><span>备案</span><img border="0" src="__PUBLIC__/source/img/online.png">
+                </a>
+            </li>               
+        </ul>
+    </div>
+  </div>
+</div> -->
+<script>
+    // $(function(){
+    //     $("#aFloatTools_Show").click(function(){
+    //         $('#divFloatToolsView').animate({width:'show',opacity:'show'},100,function(){$('#divFloatToolsView').show();});
+    //         $('#aFloatTools_Show').hide();
+    //         $('#aFloatTools_Hide').show();              
+    //     });
+    //     $("#floatTools").bind("mouseleave",function(){
+    //         $('#divFloatToolsView').animate({width:'hide', opacity:'hide'},100,function(){$('#divFloatToolsView').hide();});
+    //         $('#aFloatTools_Show').show();
+    //         $('#aFloatTools_Hide').hide();  
+    //     });
+    // });
+</script>
+<ul class="navBar slideNavBar pc">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <!-- <li></li> -->
+</ul>
+<div id="pageContain" class="pageContain">
+    <div class="page page1" data-subminheight="0">
+        <div class="contain" style="background-image:url('__PUBLIC__/source/img/bg.png')">
+            <canvas class="canv pc"></canvas>
+            <div class="cenbox" data-subminheight="48">
+                <div class="veryCenterbox">
+                    <div class="pagehead animated">
+                        <h1 class="pageh1">商业数据中心服务专家，客户责任式成长的首选合作伙伴</h1>
+                        <!-- <h2 class="pageh2"><a href="http://www.netbank.cn/360qj/index.html" target="_blank">走进网银互联数据服务中心</a></h2> -->
+                    </div>
+                </div>
+                <div class="bottomBox">
+                    <div class="animated">
+                       <!--  <h1>网银互联</h1>
+                        <img class="logo" src="__PUBLIC__/source/img/logo.png" />
+                        <h2>24*365秒级响应</h2> -->
+                        <a href="http://www.netbank.cn/360qj/index.html" target="_blank"><h2>走进网银互联数据服务中心</h2><span>24×7×365 秒级响应</span><span class="rexian">24小时客户服务热线  400-8835-999</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page page2" id="page2">
+        <div class="contain">
+            <div class="pageTitle">
+                <h1>最新资讯</h1>
+                <h1 class="en">RECENT NEWS</h1>
+            </div>
+            <div class="bannerBox box">
+                <div class="prevBox">
+                    <i class="prev flaticon-arrows-1"></i>
+                </div>
+                <div class="bannerWrap">
+                    <div class="banner">
+                        <a href="./article.html" target="_blank">
+                             <div class="img">
+                                <img src="__PUBLIC__/source/img/newspic1.png" alt="#">
+                            </div>
+                            <div class="context">
+                                <h3>揭秘铜掌柜为何钟爱001，雄哥半个月怎么爱上</h3>
+                                <span class="date">2016/03/28</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="banner">
+                        <a href="./article.html" target="_blank">
+                            <div class="img">
+                                <img src="__PUBLIC__/source/img/newspic2.png" alt="#">
+                            </div>
+                            <div class="context">
+                                <h3>创客说丨网银互联何洪忠：要做互联网里的实业家</h3>
+                                <span class="date">2016/03/28</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="banner">
+                        <a href="./article.html" target="_blank">
+                            <div class="img">
+                                <img src="__PUBLIC__/source/img/newspic3.png" alt="#">
+                            </div>
+                            <div class="context">
+                                <h3>网银互联 无锡国际数据中心机房 正式启用 现火热预定中</h3>
+                                <span class="date">2016/03/28</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="banner">
+                        <a href="./article.html" target="_blank">
+                            <div class="img">
+                                <img src="__PUBLIC__/source/img/newspic1.png" alt="#">
+                            </div>
+                            <div class="context">
+                                <h3>浙江最大IDC公司创始人，为何不给自己安排一间独立办公室？</h3>
+                                <span class="date">2016/03/28</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="banner">
+                        <a href="./article.html" target="_blank">
+                            <div class="img">
+                                <img src="__PUBLIC__/source/img/newspic2.png" alt="#">
+                            </div>
+                            <div class="context">
+                                <h3>“互联网数据银行”网银互联登陆新三板</h3>
+                                <span class="date">2016/03/28</span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="banner">
+                        <a href="./article.html" target="_blank">
+                            <div class="img">
+                                <img src="__PUBLIC__/source/img/newspic3.png" alt="#">
+                            </div>
+                            <div class="context">
+                                <h3>互联网大数据指南 教你过个高逼格的七夕节</h3>
+                                <span class="date">2016/03/28</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="nextBox">
+                    <i class="next flaticon-arrows"></i>
+                </div>
+            </div>
+            <a class="morebutton bluestyle" href="./news.html#/gsdt" target="_blank">
+                查看更多
+            </a>
+        </div>
+    </div>
+    <div class="page page3">
+        <div class="contain">
+            <canvas class="canv pc"></canvas>
+            <div class="pageTitle">
+                <h1 style="color:#fff;">产品中心</h1>
+                <h1 class="en">PRODUCT CENTER</h1>
+            </div>
+            <div class="box">
+                <div class="part">
+                    <a href="./product.html#/sjzx" target="_blank">
+                        <div class="img animated">
+                            <i class="flaticon-computer"></i>
+                        </div>
+                        <h2>数据中心</h2>
+                        <p>
+                            2004年，网银互联与浙江电信开展IDC业务合作，正式进入数据中心行业
+                        </p>
+                    </a>
+                </div>
+                <div class="part">
+                    <a href="./product.html#/kdjr" target="_blank">
+                        <div class="img animated">
+                            <i class="flaticon-connection"></i>
+                        </div>
+                        <h2>网络服务</h2>
+                        <p>
+                            网银互联与电信、联通、移动、华数、铁通、教育网等所有运营商骨干网直连
+                        </p>
+                    </a>
+                </div>
+                <div class="part">
+                    <a href="./product.html#/ywfw" target="_blank">
+                        <div class="img animated">
+                            <i class="flaticon-technology-4"></i>
+                        </div>
+                        <h2>运维服务</h2>
+                        <p>
+                            2004年，网银互联与浙江电信开展IDC业务合作，正式进入数据中心行业
+                        </p>
+                    </a>
+                </div>
+            </div>
+            <a class="morebutton" href="./product.html">
+                查看更多
+            </a>
+        </div>
+    </div>
+    <div class="page page4" data-step="1" data-step-restart="0">
+        <div class="contain">
+            <div class="pageTitle">
+                <h1>解决方案</h1>
+                <h1 class="en">TOTAL SOLUTION</h1>
+            </div>
+            <div class="box">
+                <div class="unit">
+                    <div class="part">
+                        <a href="./solution.html#/sjzx" target="_blank">
+                            <h2>数据中心定制解决方案</h2>
+                            <p>数据中心定制解决方案</p>
+                            <div class="icon">
+                                <i class="flaticon-database-1"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="part">
+                        <a href="./solution.html#/shsj" target="_blank">
+                            <h2>双活数据中心解决方案</h2>
+                            <p>双活数据中心解决方案</p>
+                            <div class="icon">
+                                <i class="flaticon-database-2"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="part">
+                        <a href="./solution.html#/ldsz" target="_blank">
+                            <h2>两地三中心灾备方案</h2>
+                            <p>两地三中心灾备方案</p>
+                            <div class="icon">
+                                <i class="flaticon-database"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="part">
+                        <a href="./solution.html#/wyid" target="_blank">
+                            <h2>网银IDC运维解决方案</h2>
+                            <p>网银IDC运维解决方案</p>
+                            <div class="icon">
+                                <i class="flaticon-technology-7"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="part">
+                        <a href="./solution.html#/gyys" target="_blank">
+                            <h2>云数据中心高速互联</h2>
+                            <p>云数据中心高速互联</p>
+                            <div class="icon">
+                                <i class="flaticon-technology-5"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="part">
+                        <a href="./solution.html#/syy" target="_blank">
+                            <h2>私有云解决方案</h2>
+                            <p>私有云解决方案</p>
+                            <div class="icon">
+                                <i class="flaticon-cloud"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="part">
+                        <a href="./solution.html#/idsr" target="_blank">
+                            <h2>IDS入侵监测解决方案</h2>
+                            <p>IDS入侵监测解决方案</p>
+                            <div class="icon">
+                                <i class="flaticon-technology-9"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="part">
+                        <a href="./solution.html#/dsjj" target="_blank">
+                            <h2>电商解决方案</h2>
+                            <p>电商解决方案</p>
+                            <div class="icon">
+                                <i class="flaticon-technology-10"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="unit">
+                    <div class="part">
+                        <a href="./solution.html#/hthnet" target="_blank">
+                            <h2>环太湖数据高速通道</h2>
+                            <p>环太湖数据高速通道</p>
+                            <div class="icon">
+                                <i class="flaticon-technology-6"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="part">
+                        <a href="./solution.html#/wzhg" target="_blank">
+                            <h2>网站合规系统解决方案</h2>
+                            <p>网站合规系统解决方案</p>
+                            <div class="icon">
+                                <i class="flaticon-technology-8"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a class="morebutton bluestyle" href="./solution.html" target="_blank">
+                查看更多
+            </a>
+        </div>
+    </div>
+    <div class="page page5">
+        <div class="contain">
+            <canvas class="canv pc"></canvas>
+            <div class="pageTitle">
+                <h1 style="color:#fff;">服务中心</h1>
+                <h1 class="en">SERVICE CENTER</h1>
+            </div>
+            <div class="box">
+                <div class="leftbox">
+                    <div class="line">
+                        <a href="./service.html#/fwzn" target="_blank">
+                            <div class="bottomline">
+                                <div class="icon animated">
+                                    <i class="flaticon-web-1"></i>
+                                </div>
+                                <h1>服务指南</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="line">
+                        <a href="./service.html#/fwcn" target="_blank">
+                            <div class="bottomline">
+                                <div class="icon animated">
+                                    <i class="flaticon-gestures"></i>
+                                </div>
+                                <h1>服务承诺</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="line">
+                        <a href="./service.html#/tsyj" target="_blank">
+                            <div class="bottomline">
+                                <div class="icon animated" style="top:35px;">
+                                    <i class="flaticon-pen"></i>
+                                </div>
+                                <h1>投诉与建议</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="midbox">
+                    <div class="inner">
+                        <div class="inner">
+                            <i class="innericon flaticon-shape"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="rightbox">
+                    <div class="line">
+                        <a href="./service.html#/fwln" target="_blank">
+                            <div class="bottomline">
+                                <div class="icon animated">
+                                    <i class="flaticon-technology-11"></i>
+                                </div>
+                                <h1>服务理念</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="line">
+                        <a href="./service.html#/fwfs" target="_blank">
+                            <div class="bottomline">
+                                <div class="icon animated">
+                                    <i class="flaticon-map"></i>
+                                </div>
+                                <h1>服务方式</h1>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="line">
+                        <a href="./service.html#/zzfw" target="_blank">
+                            <div class="bottomline">
+                                <div class="icon animated" style="top:35px">
+                                    <i class="flaticon-arrow"></i>
+                                </div>
+                                <h1>自助服务中心</h1>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <a class="morebutton" href="./service.html" target="_blank">
+                查看更多
+            </a>
+        </div>
+    </div>
+    <div class="page page6">
+        <div class="contain">
+            <div class="pageTitle">
+                <h1>合作伙伴</h1>
+                <h1 class="en">CUSTOMER CASE</h1>
+            </div>
+            <div class="box state1">
+                <div class="top">
+                    <div class="tx">
+                        <img src="__PUBLIC__/source/img/logo1.png" alt="" />
+                    </div>
+                    <div class="tx">
+                        <img src="__PUBLIC__/source/img/logo2.png" alt="" />
+                    </div>
+                    <div class="tx">
+                        <img src="__PUBLIC__/source/img/logo3.png" alt="" />
+                    </div>
+                    <div class="tx">
+                        <img src="__PUBLIC__/source/img/logo4.png" alt="" />
+                    </div>
+                    <div class="tx">
+                        <img src="__PUBLIC__/source/img/logo5.png" alt="" />
+                    </div>
+                    <div class="tx">
+                        <img src="__PUBLIC__/source/img/logo6.png" alt="" />
+                    </div>
+                    <div class="tx">
+                        <img src="__PUBLIC__/source/img/logo7.png" alt="" />
+                    </div>
+                    <div class="tx">
+                        <img src="__PUBLIC__/source/img/logo8.png" alt="" />
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="brand">
+                        <div class="headline">
+                            <div>
+                                <img src="__PUBLIC__/source/img/logo1.png" alt="" />
+                                <div class="brandname">
+                                    <h1>浙商证券</h1>
+                                    <p>
+                                        <i class="flaticon-profit-analysis"></i>
+                                        金融
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="bodyline">
+                            <p>
+                                浙商证券股份有限公司是中国证监会批准成立的综合性证券公司，成立于2002年5月9日。总部位于浙江省杭州市，注册资本30亿元人民币。公司主要业务包括证券经纪、投资银行、资产管理、财务顾问、投资咨询、证券自营、期货业务、直接投资、融资融券等，其中，资产管理、投资银行、证券经纪、期货经纪等业务已跻身行业前列。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <div class="headline">
+                            <div>
+                                <img src="__PUBLIC__/source/img/logo2.png" alt="" />
+                                <div class="brandname">
+                                    <h1>七牛云</h1>
+                                    <p>
+                                        <i class="flaticon-cloud"></i>
+                                        云存储
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="bodyline">
+                            <p>
+                                七牛于2011年创立，致力于提供最适合开发者的数据在线托管、传输加速以及云端处理等服务。区别于国内外其他云存储，七牛自行研发的全分布式架构解决了其他云存储单一数据中心架构可能存在的风险，同时首创双向加速特性对数据上传下载均加速，使得数据访问速度较传统方案平均提升 50%以上。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <div class="headline">
+                            <div>
+                                <img src="__PUBLIC__/source/img/logo3.png" alt="" />
+                                <div class="brandname">
+                                    <h1>滴滴出行</h1>
+                                    <p>
+                                        <i class="flaticon-cellphone-internet-connection"></i>
+                                        移动互联
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="bodyline">
+                            <p>
+                                滴滴出行，是中国最大的出行用车平台。目前，滴滴已从出租车打车软件，成长为涵盖出租车、专车、快车、顺风车、代驾及大巴等多项业务在内的一站式出行平台。截至2016年4月，滴滴出行估值超过250亿美元。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <div class="headline">
+                            <div>
+                                <img src="__PUBLIC__/source/img/logo4.png" alt="" />
+                                <div class="brandname">
+                                    <h1>优酷土豆网</h1>
+                                    <p>
+                                        <i class="flaticon-domain"></i>
+                                        视频网站
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="bodyline">
+                            <p>
+                                优酷土豆股份有限公司是中国网络视频行业的领军企业，专注于视频领域，旗下拥有中国排名第一和第二的视频网站优酷和土豆。优酷土豆拥有庞大的用户群、多元化的内容资源及强大的技术平台优势。优酷土豆月度用户规模已突破4亿，意味着已有1/3的中国人成为优酷土豆的用户。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <div class="headline">
+                            <div>
+                                <img src="__PUBLIC__/source/img/logo5.png" alt="" />
+                                <div class="brandname">
+                                    <h1>美图秀秀</h1>
+                                    <p>
+                                        <i class="flaticon-cellphone-internet-connection"></i>
+                                        移动互联
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="bodyline">
+                            <p>
+                                美图秀秀是由美图网研发推出的一款免费图片处理软件。2015年1月，美图秀秀移动端用户就超过1亿，日活用户560万。美图秀秀的创始公司美图成立于2008年10月，围绕着“美”创造了美图秀秀、美颜相机、美图手机、美拍、美妆相机、潮自拍等一系列软硬件产品,不仅让用户轻松实现影像变美，也使自拍文化深入人心。2015年2月，美图公司的估值已经超过20亿美元。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <div class="headline">
+                            <div>
+                                <img src="__PUBLIC__/source/img/logo6.png" alt="" />
+                                <div class="brandname">
+                                    <h1>盛大游戏</h1>
+                                    <p>
+                                        <i class="flaticon-gamepad"></i>
+                                        游戏
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="bodyline">
+                            <p>
+                                盛大游戏是中国领先的网络游戏开发商、运营商和发行商，致力于打造中国乃至全球领先的网络游戏平台连续多年赢得金翎奖、金凤凰奖等重量级行业奖项。2015年4月，盛大与凯德集团及其附属公司达成19亿美元的最终私有化交易协议。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="brand">
+                        <div class="headline">
+                            <div>
+                                <img src="__PUBLIC__/source/img/logo7.png" alt="" />
+                                <div class="brandname">
+                                    <h1>唱吧</h1>
+                                    <p>
+                                        <i class="flaticon-cellphone-internet-connection"></i>
+                                        移动互联
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="bodyline">
+                            <p>
+                                唱吧，是一款免费的社交K歌手机应用。这款应用内置混响和回声效果，可以将你的声音进行修饰美化。应用中除提供伴奏外，还提供了伴奏对应的歌词，K歌时可以同步显示，并且能够像KTV一样可以精确到每个字。此外，唱吧中还提供了有趣的智能打分系统，所得评分可以分享给好友PK。
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="brand">
+                        <div class="headline">
+                            <div>
+                                <img src="__PUBLIC__/source/img/logo8.png" alt="" />
+                                <div class="brandname">
+                                    <h1>传化物流</h1>
+                                    <p>
+                                        <i class="flaticon-domain"></i>
+                                        网站
+                                    </p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="bodyline">
+                            <p>
+                                传化物流是国内领先的公路物流行业平台运营商，致力于构建“中国智能公路物流网络运营系统”，通过“互联网物流平台网络”和“公路港共享平台网络”的互联互通，系统性解决中国公路物流短板问题，提升公路物流效率，降低公路物流成本，打造“物流+互联网+金融服务”为特征的中国公路物流新生态。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="morebutton bluestyle" href="./example.html" target="_blank">
+                查看更多
+            </a>
+        </div>
+    </div>
+    <!-- <div class="page page7">
+        <div class="contain">
+            <div class="pageTitle">
+                <h1 style="color:#fff;">合作伙伴</h1>
+                <h1 class="en">PARTNERS</h1>
+            </div>
+            <div class="box">
+                <div class="table">
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                    <div class="td"></div>
+                </div>
+            </div>
+            <a class="morebutton" href="./example.html#/hzhb" target="_blank">
+                查看更多
+            </a>
+        </div>
+    </div> -->
+    <div class="page page8">
+        <div class="contain">
+            <div class="pageTitle">
+                <h1 style="color:#fff;">联系我们</h1>
+                <h1 class="en">CONTACT US</h1>
+            </div>
+            <div class="box">
+                <!-- 杭州 -->
+                <div class="mappoint" style="top:174px;left:814px;">
+                    <div class="line" style="right: 9px;top:15px;transform:rotate(-20deg)"></div>
+                    <span class="selected" style="right: 38px;top:20px;">杭州</span>
+                </div>
+                <!-- 北京 -->
+                <div class="mappoint" style="top:134px;left:803px;">
+                    <div class="line" style="left: 12px;top:7px;"></div>
+                    <span style="left: 40px;top:-2px;">北京</span>
+                </div>
+                 <!-- 上海 -->
+                <div class="mappoint" style="top:169px;left:820px;">
+                    <div class="line" style="left: 9px;top:15px;transform:rotate(20deg)"></div>
+                    <span style="left: 38px;top:20px;">上海</span>
+                </div>
+                <!-- 江苏 -->
+                <div class="mappoint" style="top:167px;left:805px;">
+                    <div class="line" style="right: 10px;top:0px;transform:rotate(20deg)"></div>
+                    <span style="right: 38px;top:-24px;">江苏</span>
+                </div>
+                <!-- 广州 -->
+                <div class="mappoint" style="top:191px;left:808px;">
+                    <div class="line" style="left: 6px;top:20px;transform:rotate(45deg)"></div>
+                    <span style="left: 31px;top:30px;">广州</span>
+                </div>
+                <!-- 北美 -->
+                <div class="mappoint" style="top:164px;left:54px;">
+                    <div class="line" style="left: 12px;top:7px;"></div>
+                    <span style="left: 40px;top:-2px;">北美</span>
+                </div>
+                <!-- 杭州 -->
+                <div class="addressbox show">
+                    <div>
+                        <h1>杭州网银互联科技股份有限公司</h1>
+                        <table>
+                            <tr>
+                                <td><i class="flaticon-location"></i></td>
+                                <td>
+                                    地址：杭州市西湖区华星路96号互联网金融大厦20F
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-web"></i></td>
+                                <td>
+                                    邮编：310012
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-technology"></i></td>
+                                <td>
+                                    公司总机：0571-88915000
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-technology-1"></i></td>
+                                <td>
+                                    业务咨询：0571-88915000
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-telephone"></i></td>
+                                <td>
+                                    客户服务：400-8835-999（24小时）
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-technology-2"></i></td>
+                                <td>
+                                    传真：0571-89937091
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                 <!-- 北京 -->
+                <div class="addressbox">
+                    <div>
+                        <h1>网银互联（北京）服务中心</h1>
+                        <table>
+                            <tr>
+                                <td><i class="flaticon-location"></i></td>
+                                <td>
+                                    地址：北京市朝阳区曙光西里甲1号第三置业大厦A座805室
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-web"></i></td>
+                                <td>
+                                    邮编：100028
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-technology"></i></td>
+                                <td>
+                                    电话：010-65980840
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-technology-1"></i></td>
+                                <td>
+                                    传真：010-65980840
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- 上海 -->
+                <div class="addressbox">
+                    <div>
+                        <h1>网银互联（上海）服务中心</h1>
+                        <table>
+                            <tr>
+                                <td><i class="flaticon-location"></i></td>
+                                <td>
+                                    上海市虹口区四川北路1318号盛邦国际大厦18楼1306室
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-web"></i></td>
+                                <td>
+                                    邮编：200052
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-technology"></i></td>
+                                <td>
+                                    电话：021-52124880-8888
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-technology-1"></i></td>
+                                <td>
+                                    传真：021-52124880-0000
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- 江苏 -->
+                <div class="addressbox">
+                    <div>
+                        <h1>网银互联（江苏）服务中心</h1>
+                        <table>
+                            <tr>
+                                <td><i class="flaticon-location"></i></td>
+                                <td>
+                                    地址：江苏省无锡市新区无锡国家软件园巨蟹座5楼509室
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-web"></i></td>
+                                <td>
+                                    邮编：214135
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-technology"></i></td>
+                                <td>
+                                    公司总机：0571-88915000
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-technology-1"></i></td>
+                                <td>
+                                    业务咨询：0571-88915000
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!-- 广州 -->
+                <div class="addressbox">
+                    <div>
+                        <h1>网银互联（广州）服务中心</h1>
+                        <table>
+                            <tr>
+                                <td><i class="flaticon-location"></i></td>
+                                <td>
+                                    广州市天河区林和西路9号耀中广场B座807
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-web"></i></td>
+                                <td>
+                                    邮编：510000
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-technology"></i></td>
+                                <td>
+                                    公司总机：0571-88915000
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><i class="flaticon-technology-1"></i></td>
+                                <td>
+                                    业务咨询：0571-88915000
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                 <!-- 北美 -->
+                <div class="addressbox">
+                    <div>
+                        <h1>网银互联（北美）服务中心</h1>
+                        <table>
+                            <tr>
+                                <td><i class="flaticon-location"></i></td>
+                                <td>
+                                    地址：1710 south amphlett blvd,STE 218,San Meteo,CA 94402
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page page9">
+        <div class="contain">
+            <div class="box">
+                <div class="section leftbox">
+                    <div class="row">
+                        <div class="col" style="width: 33%">
+                            <h1>关于我们</h1>
+                            <a href="./about.html">公司简介</a>
+                            <a href="./about.html#/fzlc" target="_blank">发展历程</a>
+                            <a href="./about.html#/gswh" target="_blank">公司文化</a>
+                            <a href="./about.html#/jrwy" target="_blank">加入网银</a>
+                            <a>账号信息</a>
+                        </div>
+                        <div class="col" style="width: 33%">
+                            <h1>客户中心</h1>
+                            <a href="./service.html#/fwzn" target="_blank">服务指南</a>
+                            <a href="./service.html#/fwfs" target="_blank">服务方式</a>
+                            <a href="./service.html#/zzfw" target="_blank">自助服务中心</a>
+                            <a href="./service.html#/tsyj" target="_blank">投诉与建议</a>
+                        </div>
+                        <div class="col" style="width: 33%">
+                            <h1>业务咨询</h1>
+                            <a>0571-88905000</a>
+                            <h1 style="margin-top: 30px;">客户服务</h1>
+                            <a>400-8835-999</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" style="width: 33%">
+                            <h1>资讯中心</h1>
+                            <a href="./news.html#/gsdt" target="_blank">公司动态</a>
+                            <a href="./news.html#/hydt" target="_blank">行业动态</a>
+                        </div>
+                        <div class="col" style="width: 66%">
+                            <h1>关注我们</h1>
+                            <div class="iconbox">
+                                <i class="flaticon-link"></i>
+                                <i class="flaticon-social"></i>
+                                <i class="flaticon-logo"></i>
+                                <i class="flaticon-two"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section rightbox">
+                    <div id="vediopart" class="row" style="height:282px;">
+                        <div class="col">
+                            <h1>宣传视频</h1>
+                            <embed src="http://player.youku.com/player.php/sid/XNTQwMjMyNDcy/v.swf" quality="high" align="middle" allowscriptaccess="sameDomain" allowfullscreen="true" type="application/x-shockwave-flash">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <h1>旗下网站</h1>
+                            <div class="linkbox">
+                                <a href="http://www.linkcloud.cn/">
+                                    <img src="__PUBLIC__/source/img/link1.jpg" />
+                                </a>
+                                <a href="http://www.dnsng.cn/">
+                                    <img src="__PUBLIC__/source/img/link2.jpg" />
+                                </a>
+                                <a href="http://www.zj01.com/">
+                                    <img src="__PUBLIC__/source/img/link3.jpg" />
+                                </a>
+                                <a href="http://cust.netbank.cn/">
+                                    <img src="__PUBLIC__/source/img/link4.jpg" />
+                                </a>
+                            </div>
+                            <p class="beianp">
+                                <a>Copyright©2016杭州网银互联科技股份有限公司 All Rights Reserved</a>
+                            </p>
+                            <p class="beianp">
+                                <a href="http://www.miitbeian.gov.cn/" target="_blank" />浙B2-20050178</a>
+                                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010002000012" target="_blank" />浙公网安备 33010002000012号</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="__PUBLIC__/source/js/starBg.js"></script>
+<script src="__PUBLIC__/source/js/public.js"></script>
+<script>
+    pageInit();
+    (function(doc, win) { var docEl = doc.documentElement, resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize', recalc = function() { var clientWidth = docEl.clientWidth; if (!clientWidth) return; docEl.style.fontSize = 100 * (clientWidth / 1366) + 'px'; }; if (!doc.addEventListener) return; win.addEventListener(resizeEvt, recalc, false); doc.addEventListener('DOMContentLoaded', recalc, false); })(document, window);
+</script>
+<script type="text/javascript"> var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9b4faff863a6f1c8eb20277069cbd854' type='text/javascript'%3E%3C/script%3E")) </script>
+</body>
+</html>

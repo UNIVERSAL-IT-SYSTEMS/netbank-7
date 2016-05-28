@@ -1,0 +1,19 @@
+body {
+  font-family: Lantinghei SC, Microsoft Yahei, sans-serif;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: Lantinghei SC, Microsoft Yahei, sans-serif;
+}
+body .page p {
+  font-family: Lantinghei SC, Microsoft Yahei, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+}
+body .page p .clear {
+  clear: both;
+}

@@ -1,0 +1,119 @@
+body .content .cenbox .rightcolumn .cont p {
+  text-indent: 2em;
+  font-size: 16px;
+  line-height: 28px;
+  color: #333;
+}
+body .content .cenbox .rightcolumn .cont .title {
+  font-size: 18px;
+  background-color: #f0f0f0;
+  padding: 8px 0px;
+  text-indent: 25px;
+  color: #f6f7fa;
+  background-color: #043d7f;
+  margin-bottom: 20px;
+}
+body .content .cenbox .rightcolumn .cont .fwfstitle {
+  font-weight: bold;
+  text-indent: 0em;
+}
+body .content .cenbox .rightcolumn .cont .tsyjpara {
+  color: #646464;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 20px 0 10px 0;
+  border-bottom: 1px dashed #a6a6a6;
+}
+body .content .cenbox .rightcolumn .cont .tabletitle {
+  text-align: center;
+  color: #666;
+  padding-top: 20px;
+  font-size: 18px;
+}
+body .content .cenbox .rightcolumn .cont .fwcontainer {
+  width: 600px;
+  padding-left: 40px;
+}
+body .content .cenbox .rightcolumn .cont .fwcontainer .fwcontent {
+  text-indent: 0em;
+  padding: 10px 0;
+  text-align: center;
+  border: 1px dotted #999;
+  width: 150px;
+  float: left;
+  margin: 10px;
+  color: #666;
+}
+body .content .cenbox .rightcolumn .cont table {
+  width: 500px;
+  margin: auto;
+  margin-top: 15px;
+}
+body .content .cenbox .rightcolumn .cont table td {
+  width: 100px;
+  height: 40px;
+  text-align: left;
+}
+body .content .cenbox .rightcolumn .cont table .odd1 {
+  border-bottom: 1px solid #678;
+  text-align: left;
+  color: #edeef1;
+  background-color: #bbb;
+}
+body .content .cenbox .rightcolumn .cont table .even1 {
+  border-bottom: 1px solid #678;
+  color: #edeef1;
+  background-color: rgba(107, 117, 141, 0.95);
+}
+body .content .cenbox .rightcolumn .cont table .odd2 {
+  color: #787a8d;
+  background-color: #fff;
+}
+body .content .cenbox .rightcolumn .cont table .odd2 .checkcode {
+  float: left;
+  width: 100px;
+}
+body .content .cenbox .rightcolumn .cont table .odd2 .checkimg {
+  float: left;
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 5px;
+  height: 25px;
+  width: 100px;
+}
+body .content .cenbox .rightcolumn .cont table .odd2 .checktxt {
+  text-indent: 0em;
+  float: left;
+  font-size: 12px;
+}
+body .content .cenbox .rightcolumn .cont table .odd2 .clear {
+  clear: both;
+}
+body .content .cenbox .rightcolumn .cont table .even2 {
+  background-color: #f6f7fa;
+  color: #787a8d;
+}
+body .content .cenbox .rightcolumn .cont table td input {
+  padding-left: 10px;
+  height: 25px;
+  border-radius: 3px;
+  width: 180px;
+  border: none;
+  border: 1px solid #b4b3b9;
+}
+body .content .cenbox .rightcolumn .cont table .submit {
+  padding: 10px;
+  background-color: #f6f7fa;
+}
+body .content .cenbox .rightcolumn .cont table .submit .btn {
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background-color: rgba(107, 117, 141, 0.95);
+  color: #edeef1;
+  height: 40px;
+  font-size: 16px;
+  width: 100px;
+  border-radius: 3px;
+  padding: 0;
+}

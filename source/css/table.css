@@ -1,0 +1,7 @@
+table.stripe tr td{background:#FFF;} 
+/* css注释：默认css背景被白色 */ 
+table.stripe tr.alt td { background:#F2F2F2;} 
+table.stripe tr.tablebar{
+	background-color: #043d7f!important;
+
+}

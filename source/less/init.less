@@ -1,0 +1,89 @@
+@transitionDefaultSet:800ms ease;
+@blue: #1c8bc3;
+@maxwidth:800px;
+@labelgrey:#939393;
+@hengcolor: #eeeeee;
+@pagecolor_blue:#043d7f;
+@pagecolor_grey:#f5f5f5;
+@pagecolor_orange:#e24e35;
+@pagecolor_yellow:#f5a623;
+@pagecolor_deepblue:#15222b;
+.after{
+	&:after{
+		display: block;
+		content: '';
+		clear: both;
+	}
+}
+.before{
+	&:before{
+		display: block;
+		content: '';
+		clear: both;
+	}
+}
+.veryCenter{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+}
+.verticalCenter{
+	position: absolute;
+	top: 50%;
+	transform: translate(0,-50%);
+	-webkit-transform: translate(0,-50%);
+}
+.horizontalCenter{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%,0);
+	-webkit-transform: translate(-50%,0);
+}
+.ellipsis{
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.mutilEllipsis(@n){
+	overflow : hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: @n;
+	-webkit-box-orient: vertical;
+}
+.mutilLineVerticalCenter{
+	font-size:0;
+	&:before{
+		content:'123';
+		// font-size: 0
+		display: inline-block;
+		vertical-align: middle;
+		width: 0;
+		height: 100%;
+	}
+	a{
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+.full{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.viewTransitionSet{
+	transition: @transitionDefaultSet;
+	-webkit-transition: @transitionDefaultSet;
+	-moz-transition: @transitionDefaultSet;
+	-ms-transition: @transitionDefaultSet;
+	-o-transition: @transitionDefaultSet;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,830 @@
+.after:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.before:before {
+  display: block;
+  content: '';
+  clear: both;
+}
+.veryCenter {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.verticalCenter {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  -webkit-transform: translate(0, -50%);
+}
+.horizontalCenter {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.mutilLineVerticalCenter {
+  font-size: 0;
+}
+.mutilLineVerticalCenter:before {
+  content: '123';
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+}
+.mutilLineVerticalCenter a {
+  display: inline-block;
+  vertical-align: middle;
+}
+.full {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.viewTransitionSet {
+  transition: 800ms ease;
+  -webkit-transition: 800ms ease;
+  -moz-transition: 800ms ease;
+  -ms-transition: 800ms ease;
+  -o-transition: 800ms ease;
+}
+.header {
+  position: absolute;
+}
+.lqy_banner {
+  position: relative;
+  height: 380px;
+  width: 100%;
+  background-color: #043d7f;
+}
+.lqy_banner .centerbox {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.lqy_banner .centerbox h1 {
+  width: 800px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+}
+.navigator li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.content {
+  width: 100%;
+  min-height: 500px;
+  margin-bottom: 20px;
+}
+.cenbox {
+  width: 1040px;
+  margin: 0 auto;
+  display: -webkit-flex;
+  /* Safari */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-item: stretch;
+}
+.leftcolumn,
+.rightcolumn {
+  padding-top: 60px;
+}
+.leftcolumn {
+  width: 180px;
+  border-right: 2px solid #1c8bc3;
+}
+.leftcolumn .row {
+  width: 100%;
+  line-height: 1.5;
+  font-size: 16px;
+  color: #999;
+  border-left: 4px solid transparent;
+  border-bottom: 1px solid #eeeeee;
+}
+.leftcolumn .row.set {
+  border-left: 4px solid #1c8bc3;
+  color: #555;
+}
+.leftcolumn .row a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+}
+.row {
+  overflow: hidden;
+}
+.row:hover {
+  background-color: #fafafa;
+}
+.rightcolumn {
+  width: 860px;
+  min-height: 300px;
+  padding-left: 55px;
+  padding-right: 30px;
+  padding-bottom: 60px;
+}
+.rightcolumn .cont {
+  display: none;
+}
+.rightcolumn .cont.show {
+  display: block;
+}
+.timecontent .cenbox {
+  display: block;
+}
+.timecontent .cenbox .top {
+  width: 100%;
+  height: 100px;
+  padding-top: 40px;
+}
+.timecontent .cenbox .top > div {
+  margin: 0 auto;
+  width: 295px;
+}
+.timecontent .cenbox .top > div:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.timecontent .cenbox .top > div > .row {
+  width: 130px;
+  height: 35px;
+  line-height: 34px;
+  text-align: center;
+  display: block;
+  border-radius: 35px;
+  margin-right: 35px;
+  border: 1px solid #1c8bc3;
+  color: #1c8bc3;
+  float: left;
+}
+.timecontent .cenbox .top > div > .row:last-child {
+  margin-right: 0;
+}
+.timecontent .cenbox .top > div > .row.set {
+  background-color: #1c8bc3 !important;
+  color: #fff;
+}
+.timecontent .cenbox .top > div > .row > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.timecontent .cenbox .bottom .cont {
+  display: none;
+}
+.timecontent .cenbox .bottom .cont.show {
+  display: block;
+}
+.bottom:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.dataAxis {
+  padding: 15px;
+}
+.dataAxis .axisHeader {
+  position: relative;
+  margin-left: 80px;
+  padding-left: 25px;
+  padding-right: 10px;
+  border-left: 2px solid #1c8bc3;
+  min-height: 100px;
+  height: 60px;
+  min-height: 0;
+}
+.dataAxis .axisHeader:before {
+  display: block;
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #1c8bc3;
+  background-color: #fff;
+}
+.dataAxis .axisHeader:after {
+  display: block;
+  content: '';
+  position: absolute;
+  left: -3px;
+  top: 11px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #1c8bc3;
+}
+.dataAxis .axisHeader .time {
+  position: absolute;
+  width: 80px;
+  left: -80px;
+  padding-right: 15px;
+  text-align: right;
+}
+.dataAxis .axisHeader .time .date {
+  display: block;
+  font-size: 16px;
+  color: #1c8bc3;
+}
+.dataAxis .axisHeader .time .year {
+  display: block;
+  font-size: 12px;
+  color: #1c8bc3;
+}
+.dataAxis .axisHeader h2 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.dataAxis .axisHeader p {
+  font-size: 12px;
+  color: #999;
+  margin-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.dataAxis .axisHeader:before,
+.dataAxis .axisHeader:after {
+  display: none;
+}
+.dataAxis .axisHeader .clockicon {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: -18px;
+  top: 16px;
+}
+.dataAxis .axisHeader .selector {
+  width: 80px;
+  position: absolute;
+  left: -80px;
+  top: 22px;
+}
+.dataAxis .axisHeader .selector h3 {
+  font-weight: normal;
+  font-size: 16px;
+  color: #1c8bc3;
+  cursor: pointer;
+}
+.dataAxis .axisHeader .selector h3 i {
+  margin-left: 10px;
+}
+.dataAxis .axisFooter {
+  position: relative;
+  margin-left: 80px;
+  padding-left: 25px;
+  padding-right: 10px;
+  border-left: 2px solid #1c8bc3;
+  min-height: 100px;
+  height: 60px;
+  min-height: 0;
+}
+.dataAxis .axisFooter:before {
+  display: block;
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #1c8bc3;
+  background-color: #fff;
+}
+.dataAxis .axisFooter:after {
+  display: block;
+  content: '';
+  position: absolute;
+  left: -3px;
+  top: 11px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #1c8bc3;
+}
+.dataAxis .axisFooter .time {
+  position: absolute;
+  width: 80px;
+  left: -80px;
+  padding-right: 15px;
+  text-align: right;
+}
+.dataAxis .axisFooter .time .date {
+  display: block;
+  font-size: 16px;
+  color: #1c8bc3;
+}
+.dataAxis .axisFooter .time .year {
+  display: block;
+  font-size: 12px;
+  color: #1c8bc3;
+}
+.dataAxis .axisFooter h2 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.dataAxis .axisFooter p {
+  font-size: 12px;
+  color: #999;
+  margin-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.dataAxis .axisFooter:before,
+.dataAxis .axisFooter:after {
+  display: none;
+}
+.dataAxis .axisFooter .button {
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #1c8bc3;
+  color: #1c8bc3;
+  line-height: 38px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+.dataAxis .axisList {
+  position: relative;
+  margin-left: 80px;
+  padding-left: 25px;
+  padding-right: 10px;
+  border-left: 2px solid #1c8bc3;
+  min-height: 100px;
+}
+.dataAxis .axisList:before {
+  display: block;
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #1c8bc3;
+  background-color: #fff;
+}
+.dataAxis .axisList:after {
+  display: block;
+  content: '';
+  position: absolute;
+  left: -3px;
+  top: 11px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #1c8bc3;
+}
+.dataAxis .axisList .time {
+  position: absolute;
+  width: 80px;
+  left: -80px;
+  padding-right: 15px;
+  text-align: right;
+}
+.dataAxis .axisList .time .date {
+  display: block;
+  font-size: 16px;
+  color: #1c8bc3;
+}
+.dataAxis .axisList .time .year {
+  display: block;
+  font-size: 12px;
+  color: #1c8bc3;
+}
+.dataAxis .axisList h2 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.dataAxis .axisList p {
+  font-size: 12px;
+  color: #999;
+  margin-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.loadMoreButton {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #1c8bc3;
+  color: #1c8bc3;
+  line-height: 38px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px auto;
+}
+.kehutable {
+  margin-top: 30px;
+}
+.kehutable:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.kehutable .td {
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 173px;
+  height: 76px;
+  background-size: 100% 100%;
+}
+.kehutable .td:nth-child(4n) {
+  margin-right: 0;
+}
+.kehutable .td:nth-child(1) {
+  background-image: url('../img/part-1.png');
+}
+.kehutable .td:nth-child(2) {
+  background-image: url('../img/part-2.png');
+}
+.kehutable .td:nth-child(3) {
+  background-image: url('../img/part-3.png');
+}
+.kehutable .td:nth-child(4) {
+  background-image: url('../img/part-4.png');
+}
+.kehutable .td:nth-child(5) {
+  background-image: url('../img/part-5.png');
+}
+.kehutable .td:nth-child(6) {
+  background-image: url('../img/part-6.png');
+}
+.kehutable .td:nth-child(7) {
+  background-image: url('../img/part-7.png');
+}
+.kehutable .td:nth-child(8) {
+  background-image: url('../img/part-8.png');
+}
+.kehutable .td:nth-child(9) {
+  background-image: url('../img/part-9.png');
+}
+.kehutable .td:nth-child(10) {
+  background-image: url('../img/part-10.png');
+}
+.kehutable .td:nth-child(11) {
+  background-image: url('../img/part-11.png');
+}
+.kehutable .td:nth-child(12) {
+  background-image: url('../img/part-12.png');
+}
+.kehutable .td:nth-child(13) {
+  background-image: url('../img/part-13.png');
+}
+.kehutable .td:nth-child(14) {
+  background-image: url('../img/part-14.png');
+}
+.kehutable .td:nth-child(15) {
+  background-image: url('../img/part-15.png');
+}
+.kehutable .td:nth-child(16) {
+  background-image: url('../img/part-16.png');
+}
+.kehutable .td:nth-child(17) {
+  background-image: url('../img/part-17.png');
+}
+.kehutable .td:nth-child(18) {
+  background-image: url('../img/part-18.png');
+}
+.kehutable .td:nth-child(19) {
+  background-image: url('../img/part-19.png');
+}
+.kehutable .td:nth-child(20) {
+  background-image: url('../img/part-20.png');
+}
+.kehuline {
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+.kehuline:last-child {
+  border-bottom: none;
+}
+.kehuline:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.kehuline .headline,
+.kehuline .bodyline {
+  float: left;
+}
+.kehuline .headline {
+  width: 120px;
+}
+.kehuline .headline > div:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.kehuline .headline > div > img {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.kehuline .headline > div .brandname {
+  padding-top: 10px;
+}
+.kehuline .headline > div .brandname h1 {
+  font-size: 18px;
+  color: #1c8bc3;
+  text-align: center;
+}
+.kehuline .headline > div .brandname p {
+  color: #939393;
+  text-align: center;
+  font-size: 18px;
+}
+.kehuline .headline > div .brandname p i {
+  position: relative;
+  top: 7px;
+  font-size: 32px;
+}
+.kehuline .bodyline {
+  width: 655px;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.kehuline .bodyline p {
+  color: #666;
+  padding-bottom: 10px;
+  text-indent: 2em;
+}
+.page:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.lxwmimg {
+  padding: 20px;
+}
+.gswhimg {
+  padding: 10px;
+}
+.artcilecontent .cenbox {
+  display: block;
+  padding: 20px;
+}
+.artcilecontent .cenbox .articleheader {
+  width: 100%;
+  border-bottom: 1px solid #eeeeee;
+}
+.artcilecontent .cenbox .articleheader h1 {
+  padding: 10px 0;
+}
+.artcilecontent .cenbox .articleheader .meta {
+  padding: 5px 0;
+}
+.artcilecontent .cenbox .paragraph {
+  padding: 20px 0;
+}
+.artcilecontent .cenbox .paragraph p {
+  text-indent: 2em;
+  font-size: 15px;
+  line-height: 1.8;
+}
+@media (max-width: 800px) {
+  body {
+    padding-top: 48px;
+  }
+  .cenbox {
+    display: block;
+    width: 100%;
+  }
+  .lqy_banner {
+    height: 120px;
+  }
+  .lqy_banner .centerbox {
+    padding: 0 15px;
+    width: 100%;
+    left: 0;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+  }
+  .lqy_banner .centerbox h1 {
+    width: 100%;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .leftcolumn,
+  .rightcolumn {
+    padding-top: 0px;
+  }
+  .leftcolumn {
+    width: 100%;
+    border-right: none;
+  }
+  .rightcolumn {
+    width: 100%;
+    min-height: 300px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .kehutable .td {
+    width: 44%;
+    margin-left: 4%;
+    margin-right: 0;
+    height: 0;
+    padding-bottom: 19%;
+  }
+  .kehuline {
+    border-bottom: none;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+  .kehuline:after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+  .kehuline .headline {
+    width: 120px;
+  }
+  .kehuline .headline > div:after {
+    display: block;
+    content: '';
+    clear: both;
+  }
+  .kehuline .headline > div > img {
+    flodisplay: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  .kehuline .headline > div .brandname {
+    padding-top: 10px;
+  }
+  .kehuline .headline > div .brandname h1 {
+    font-size: 18px;
+    color: #1c8bc3;
+    text-align: center;
+  }
+  .kehuline .headline > div .brandname p {
+    color: #939393;
+    text-align: center;
+    font-size: 18px;
+  }
+  .kehuline .headline > div .brandname p i {
+    position: relative;
+    top: 7px;
+    font-size: 32px;
+  }
+  .kehuline .bodyline {
+    width: 225px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .kehuline .bodyline p {
+    color: #666;
+    padding-bottom: 10px;
+    text-indent: 2em;
+  }
+  .lxwmimg {
+    padding: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .gswhimg {
+    padding: 0px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .dataAxis .axisHeader,
+  .dataAxis .axisFooter {
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+    min-height: 120px;
+    padding-top: 4px;
+    min-height: 0;
+  }
+  .dataAxis .axisHeader .time,
+  .dataAxis .axisFooter .time {
+    position: static;
+    width: 100%;
+    padding-right: 0px;
+    text-align: left;
+  }
+  .dataAxis .axisHeader .time .date,
+  .dataAxis .axisFooter .time .date {
+    display: inline;
+    font-size: 14px;
+    color: #1c8bc3;
+  }
+  .dataAxis .axisHeader .time .year,
+  .dataAxis .axisFooter .time .year {
+    display: inline;
+    font-size: 12px;
+    color: #1c8bc3;
+  }
+  .dataAxis .axisHeader .selector {
+    left: 25px;
+  }
+  .dataAxis .axisList {
+    margin-left: 15px;
+    padding-left: 15px;
+    padding-right: 5px;
+    min-height: 120px;
+    padding-top: 4px;
+  }
+  .dataAxis .axisList .time {
+    position: static;
+    width: 100%;
+    padding-right: 0px;
+    text-align: left;
+  }
+  .dataAxis .axisList .time .date {
+    display: inline;
+    font-size: 14px;
+    color: #1c8bc3;
+  }
+  .dataAxis .axisList .time .year {
+    display: inline;
+    font-size: 12px;
+    color: #1c8bc3;
+  }
+}
+.selectTdClass {
+  background-color: #edf5fa !important;
+}
+table.noBorderTable td,
+table.noBorderTable th,
+table.noBorderTable caption {
+  border: 1px dashed #ddd !important;
+}
+table {
+  margin-bottom: 10px;
+  border-collapse: collapse;
+  display: table;
+}
+td,
+th {
+  padding: 5px 10px;
+  border: 1px solid #DDD;
+}
+caption {
+  border: 1px dashed #DDD;
+  border-bottom: 0;
+  padding: 3px;
+  text-align: center;
+}
+th {
+  border-top: 1px solid #BBB;
+  background-color: #F7F7F7;
+}
+table tr.firstRow th {
+  border-top-width: 2px;
+}
+.ue-table-interlace-color-single {
+  background-color: #fcfcfc;
+}
+.ue-table-interlace-color-double {
+  background-color: #f7faff;
+}
+td p {
+  margin: 0;
+  padding: 0;
+}

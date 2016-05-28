@@ -1,0 +1,191 @@
+body {
+  position: relative;
+}
+body .content .cont .title {
+  font-size: 18px;
+  background-color: #f0f0f0;
+  padding: 8px 0px;
+  text-indent: 25px;
+  color: #f6f7fa;
+  background-color: #043d7f;
+  margin-bottom: 20px;
+}
+body .content .cont ol li.elesys {
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+body .content .cont .jfsj {
+  padding: 20px 20px;
+}
+body .content .cont .xiashaimg {
+  width: 325px;
+  height: 186px;
+}
+body .content .cont .syyimg {
+  display: block;
+  margin: auto;
+  margin-bottom: 40px;
+  border-radius: 30px;
+}
+body .content .cont .botjpg {
+  display: block;
+  width: 775px;
+  height: 571px;
+  margin: auto;
+  margin-top: 40px;
+  max-width: 100%;
+}
+body .content .cont .datamap {
+  position: relative;
+  width: 600px;
+  height: 600px;
+}
+body .content .cont .datamap .datacentermap {
+  display: block;
+  margin: auto;
+  width: 600px;
+  height: 600px;
+}
+body .content .cont .datamap .mapa {
+  position: absolute;
+  width: 125px;
+  height: 20px;
+  background-color: red;
+  left: 58px;
+  bottom: 60px;
+  opacity: 0;
+}
+body .content .cont .datamap .mapa1 {
+  left: 58px;
+  bottom: 60px;
+}
+body .content .cont .datamap .mapa2 {
+  bottom: 85px;
+}
+body .content .cont .datamap .mapa3 {
+  bottom: 110px;
+}
+body .content .cont .datamap .mapa4 {
+  bottom: 135px;
+}
+body .content .cont .datamap .mapa5 {
+  bottom: 155px;
+}
+body .content .cont .datamap .mapa6 {
+  bottom: 180px;
+}
+body .content .cont .datamap .mapa7 {
+  bottom: 205px;
+}
+body .content .cont .datamap .mapa8 {
+  bottom: 230px;
+}
+body .content .cont .datamap .mapa9 {
+  bottom: 255px;
+}
+body .content .cont .datamap .mapa10 {
+  bottom: 280px;
+}
+body .content .cont .datamap .mapa11 {
+  bottom: 305px;
+}
+body .content .cont .datamap .mapa12 {
+  bottom: 330px;
+}
+body .content .cont .datamap .mapa13 {
+  bottom: 365px;
+}
+body .content .cont .btndiv {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+body .content .cont .btndiv .mapbtn {
+  cursor: pointer;
+  text-align: center;
+  width: 150px;
+  height: 50px;
+  line-height: 50px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  margin: 10px;
+}
+body .content .cont .btndiv .mapbtn:hover {
+  background-color: #043d7f;
+  color: #fff;
+}
+body .content .cont .btndiv .map:active {
+  background-color: #043d7f;
+  color: #fff;
+}
+body .footer {
+  height: 50px;
+  width: 100%;
+  background-color: #15222b;
+}
+body .footer .footercontain {
+  margin-top: 18px;
+  width: 1040px;
+  height: 50px;
+  margin: auto;
+}
+body .footer .footercontain a {
+  float: left;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+body .footer .footercontain a .footerimg {
+  display: block;
+  width: 80px;
+  height: 30px;
+}
+body .footer .footercontain .footerimgright {
+  padding-right: 20px;
+}
+body .footer .footercontain .clear {
+  clear: both;
+}
+body .footer .footercontain .footerp {
+  padding-top: 18px;
+  font-size: 12px;
+  color: #fff;
+  float: left;
+  padding-right: 5px;
+}
+body .footer .footercontain .footerimg2 {
+  display: block;
+  margin-top: 18px;
+  width: 60px;
+  height: 15px;
+  float: left;
+}
+@media (max-width: 800px) {
+  body .footer {
+    width: 100%;
+    height: 140px;
+  }
+  body .footer .footercontain {
+    padding: 20px 0;
+    width: 100%;
+    padding-left: 20px;
+  }
+  body .footer .footercontain a {
+    float: none;
+  }
+  body .footer .footercontain .footerp {
+    float: none;
+    margin: 0;
+    padding: 3px 0;
+  }
+  body .footer .footercontain .footerimg2 {
+    display: none;
+  }
+}
